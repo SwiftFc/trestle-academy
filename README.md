@@ -4,25 +4,25 @@
 # Trade Data Analysis: Ghana (2014-2018)
 
 ## Overview
-This project analyzes trade data of Ghana from 2014 to 2018, focusing on import and export trends. The goal is to gain insights into Ghana's trade activities, top trading partners, commodity composition, and trends over the specified period.
+This project analyzes trade data of Ghana from 2014 to 2018, focusing on import and export trends. The goal is to gain insights into Ghana's trade activities, top performing commodity composition, and trends over the specified period.
 
 ## Dataset
-The dataset used for this analysis is sourced from ministry of trade. It includes detailed information on import and export transactions, including commodity codes, quantities, values, and trading partners.
+The dataset used for this analysis is sourced from ministry of trade. It includes detailed information on import and export transactions, including commodity codes or HS CODES, item description, Custom Value in both USD and GHS, Years and Net weight.
 
 ## Analysis
 The analysis is conducted using Python programming language and various data analysis libraries such as Pandas, NumPy, and Matplotlib. The following key aspects are covered in the analysis:
 - Total import and export values over the years
-- Top trading partners for imports and exports
+- Top trading for imports and exports
 - Commodity composition of imports and exports
 - Yearly trends and patterns in trade activities
 
 ## Directory Structure
 ```
 |-- data/
-|   |-- trade_data.csv           # Raw trade data CSV file
+|   |-- Data on TOP 100 EXPORT AND IMPORT  PRODUCTS (1)(1145)        # Raw trade data Excel file
 |
 |-- notebooks/
-|   |-- Trade_Data_Analysis.ipynb      # Jupyter notebook containing the analysis code
+|   |-- main-trade_data_analysis.ipynb      # Jupyter notebook containing the analysis code
 |
 |-- README.md                 # Project overview and documentation
 |-- requirements.txt          # Python dependencies
